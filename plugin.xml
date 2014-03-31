@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            label="さんぷるなアクションセット"
+            visible="true"
+            id="NyumonHelloPlugin.actionSet">
+         <menu
+               label="さんぷるなメニュー(&amp;M)"
+               id="fugaMenu">
+            <separator
+                  name="hogeGroup">
+            </separator>
+         </menu>
+         <action
+               label="さんぷるなアクションです(&amp;S)"
+               icon="icons/apple.gif"
+               class="nyumonhelloplugin.actions.SampleAction"
+               tooltip="ちっぷですよ"
+               menubarPath="fugaMenu/hogeGroup"
+               toolbarPath="hogeGroup"
+               id="nyumonhelloplugin.actions.SampleAction">
+         </action>
+      </actionSet>
+   </extension>
+
+</plugin>
