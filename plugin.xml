@@ -24,6 +24,15 @@
                toolbarPath="hogeGroup"
                id="nyumonhelloplugin.actions.SampleAction">
          </action>
+         <action
+               class="nyumonhelloplugin.actions.SecondAction"
+               icon="icons/orange.gif"
+               id="NyumonHelloPlugin.action1"
+               label="追加のあくしょん"
+               menubarPath="fugaMenu/hogeGroup"
+               style="push"
+               toolbarPath="hogeGroup">
+         </action>
       </actionSet>
    </extension>
 
